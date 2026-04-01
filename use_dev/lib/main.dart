@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 
 import 'src/tela_inicial.dart'; 
+import 'src/tela_card.dart';
 
 
 void main() {
@@ -54,11 +55,11 @@ class HomePageCorrida extends StatelessWidget {
         ],
       ),
 
-      body: const SingleChildScrollView(
+      body: SingleChildScrollView(
         child: Column(
           children: [
             InitialScreen(), 
-            
+            ProductListScreen(),
           ],
         ),
       ),

@@ -87,9 +87,27 @@ class InitialScreen extends StatelessWidget {
                   ),
                 ),
               ],
+              
             ),
           ),
         ),
+        Column(
+          children: [
+            Padding(padding:  const EdgeInsets.all(20.0),
+            child: Text(
+              'Promos especiais',
+              style: TextStyle(
+                fontSize: 28,
+                fontFamily: GoogleFonts.orbitron().fontFamily,
+                fontWeight: FontWeight.bold, 
+              ),
+            ),
+            ),
+          ],
+
+        )
+          
+        
       ],
     );
   }
