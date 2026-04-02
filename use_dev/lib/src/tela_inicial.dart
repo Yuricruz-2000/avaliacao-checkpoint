@@ -32,7 +32,7 @@ class InitialScreen extends StatelessWidget {
         // Banner Principal
         Container(
           width: double.infinity,
-          height: 450, 
+          height: 520, 
           decoration: const BoxDecoration(
             image: DecorationImage(
               image: AssetImage('assets/images/Banner.png'), 
@@ -51,6 +51,7 @@ class InitialScreen extends StatelessWidget {
                 Text(
                   'Hora de abraçar seu',
                   style: TextStyle(
+                    
                     fontSize: 32,
                     fontFamily: GoogleFonts.orbitron().fontFamily,
                     color: const Color(0xFFFF55DF),
